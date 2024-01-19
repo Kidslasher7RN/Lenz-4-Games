@@ -78,6 +78,15 @@ let app_list = [
     password: 448,
     origins: "ovagames",
   },
+  {
+    name: "house flipper 2",
+    release: "2024",
+    href: "https://filecrypt.co/Container/A1CD2CB20F.html",
+    cover:
+      "https://assets-prd.ignimgs.com/2022/09/21/house-flipper-2-button-1-1663782245809.jpg",
+    password: 448,
+    origins: "ovagames",
+  },
 ];
 
 export default app_list;
