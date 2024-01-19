@@ -69,6 +69,15 @@ let app_list = [
     password: 448,
     origins: "ovagames",
   },
+  {
+    name: "ea sports fc 24",
+    release: "2023",
+    href: "https://filecrypt.co/Container/A1CD2CB20F.html",
+    cover:
+      "https://fifauteam.com/images/covers/fc24/hd/standard.webp",
+    password: 448,
+    origins: "ovagames",
+  },
 ];
 
 export default app_list;
