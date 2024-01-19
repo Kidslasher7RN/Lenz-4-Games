@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@700&family=Poppins:wght@100;300;400;700&display=swap");
+/* font-family: 'Bungee', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Staatliches", sans-serif;
+}
+
+.body {
+  width: 100%;
+  height: fit-content;
+  background-color: #111a21;
+  background-image: url(img/wallpaper.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.navbar {
+  margin: 7rem auto;
+  width: calc(100% - 20%);
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #a9071c;
+  box-shadow: 5px 5px 0px #5a5a5a, -5px -5px 0px #ffffff;
+  font-size: 1.3rem;
+  background-image: url(img/navbarTexture.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #a9071c;
+  align-self: flex-start;
+  margin-left: 10rem;
+}
+
+.title span {
+  font-family: "Poppins", sans-serif;
+}
+
+.li {
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.li:hover {
+  color: #b4b4b4;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.typograph {
+  color: #ebeff0;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 2px;
+  align-self: flex-start;
+  padding-left: 10rem;
+}
+
+.typograph p {
+  color: #e0e0e0;
+}
+
+span {
+  color: #a9071c;
+}
+
+/* MAIN CONTENT */
+
+.content {
+  margin-top: 10rem;
+  width: 100%;
+  height: 100%;
+  background: #111a21;
+  border-top: 5px solid #ebeff0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .content-container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.content .content-container p {
+  margin-top: 3rem;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-feature-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-feature-wrapper input {
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.search-feature-wrapper button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.games-panel {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  width: 230px;
+  height: 400px;
+  background: rgb(209, 209, 209);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  font-size: 10px;
+  text-align: center;
+  color: black;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 310px;
+  background-repeat: no-repeat;
+}
